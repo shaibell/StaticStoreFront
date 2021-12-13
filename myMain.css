@@ -1,0 +1,174 @@
+.contentWrapper {
+    
+        font-size: 70.5%;
+        font-family: "overpass mono", monospace;
+        background: url(img/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpeg);
+        padding: 0;
+        margin: 0;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100;
+        -o-background-size: 100% 100%;
+    }
+
+    h1 {
+        color:white;
+        font-size: 8.0em;
+        margin: 0.5em 0 0 0;
+        padding: 500;
+    }
+
+nav {
+
+font-size: 0.7em;
+font-family: "overpass mono", monospace;
+letter-spacing: 0.04em;
+padding: 1.0em 1.0em 0.5em;
+margin: 1.0em 0 ;
+}
+
+section div.panel img.shirts {
+    width: 80%
+}
+
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+ol li {
+    margin: 0;
+    padding: 0 0 0 0.2em;
+
+}
+
+p { font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555; 
+    padding: 0px;
+    margin: 0px 0.5 7.75em 0px;
+
+}
+
+section #main {
+    
+    background-color: rgba(252, 251, 243, 0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 6em;
+    
+}
+section div.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: white;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+    }
+    nav ul {
+        margin:0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0;
+    }
+    nav li a, nav li a:visited {
+        text-decoration: none;
+        color: pink;
+        padding: 0.3em 0.6em;
+    }
+    nav li a:hover {
+        color: lightskyblue;
+        background-color: rgba(252, 251, 243, 00.75em);
+    }
+    
+    nav#utilityMenu {
+        float: right;
+        margin: 0 0 0 0;
+        padding: 0.35em;
+       
+    }
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+color: #fff;
+text-decoration: none;
+display: inline-block;
+height: 1.3em;
+padding: 0.5em;
+margin: -0.4em 0 0 0;
+font-size: 0.8em;
+}
+nav#utilityMenu ul li.acctNav a.active {
+    background-color: lightskyblue;
+}
+nav#utilityMenu ul li.acctNav a:hover {
+    background-color: rgba(252, 251, 243, 0.7em);
+    color: white;
+}
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#utilityMenu li a:hover { background-color: transparent;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+nav#utilityMenu ul li.accntNav ::before, nav#utilityMenu ul li input#search::before {
+    
+    color: #fcfbe6;
+}
+
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: " | ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+button {
+    color: lightskyblue;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid lightskyblue;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #FBF3DB;
+    border: 1px solid #745b2f;
+}
